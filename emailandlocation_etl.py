@@ -7,8 +7,8 @@ from sklearn.cluster import KMeans
 #Extract
 
 #data from a CSV on my desktop (located via pathname)
-emails_df = pd.read_csv('/Users/user/Desktop/SampleData.csv', sep = ";", usecols=["Email"])
-location_df = pd.read_csv('/Users/user/Desktop/SampleData.csv', sep = ";", usecols=["Latitude",
+emails_df = pd.read_csv('/Users/Desktop/SampleData.csv', sep = ";", usecols=["Email"])
+location_df = pd.read_csv('/Users/Desktop/SampleData.csv', sep = ";", usecols=["Latitude",
                                                                                     "Longitude"])
 #print(emails_df)
 
